@@ -71,7 +71,7 @@ public class  newWebDriverSetup
       options.addArguments("--disable-web-security");
       
 
-      driver = new RemoteWebDriver(new URL("http://3.129.9.62/:4444/wd/hub"),options);
+      driver = new RemoteWebDriver(new URL("https://3.129.9.62:4444/wd/hub"),options);
      // driver= new ChromeDriver(options);
       
       driver.manage().timeouts().pageLoadTimeout(60,TimeUnit.SECONDS);
