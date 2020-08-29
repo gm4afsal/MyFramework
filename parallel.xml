@@ -3,11 +3,6 @@
 <suite name="QualityWorks Simple Test Suite" parallel="classes">
 <parameter name="baseUrl" value="about:blank"/>
   <test name="Simple Test Suite">
-    
-    <classes>
-      <class name="com.qualityworkscg.tests.HomeTest">
-	 </class> 
-    
 
       <class name="com.qualityworkscg.tests.AmazonTest">
  </class> 
