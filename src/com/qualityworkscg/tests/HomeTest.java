@@ -17,7 +17,8 @@ public class HomeTest extends newBase
   public void verifyTitle () throws InterruptedException 
   {
     
-	
+	driver.get("https://test.salesforce.com");
+	Thread.sleep(3000);
     
     driver.findElement(By.id("username")).click();
     Thread.sleep(2000);
