@@ -21,7 +21,7 @@ public class TargetTest extends newBase
 	    Thread.sleep(10000);
     
    
-	    System.out.println("Login successful.");
+	    System.out.println("Opened Target.");
     
     
   }
