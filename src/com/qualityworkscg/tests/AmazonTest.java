@@ -18,8 +18,8 @@ public class AmazonTest extends newBase
   {
     
 
- 
-	    System.out.println("Login successful.");
+	driver.get("https://www.amazon.com");
+	Thread.sleep(3000);
     
     System.out.println("Login successful.");
     
