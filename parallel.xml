@@ -9,14 +9,14 @@
 	</classes>
    </test> 
 
-  <test name="Simple Test Suite2">
-    <classes>
-      <class name="com.qualityworkscg.tests.AmazonTest"/>
- 	</classes>
+	<test name="Simple Test Suite2">
+	    <classes>
+      		<class name="com.qualityworkscg.tests.AmazonTest"/>
+ 		</classes>
     </test> 
 
-  <test name="Simple Test Suite3">
-    <classes>
+<test name="Simple Test Suite3">
+<classes>
       <class name="com.qualityworkscg.tests.TargetTest"/>
     </classes>
   </test> 
