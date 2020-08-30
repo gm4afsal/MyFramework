@@ -10,10 +10,7 @@ import com.qualityworkscg.base.newBase;
 
 public class HomeTest extends newBase 
 {
-
- 
-
-@Test
+  @Test
   public void verifyTitle () throws InterruptedException 
   {
     
