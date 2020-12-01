@@ -20,13 +20,13 @@ public class HomeTest extends newBase
     driver.findElement(By.id("username")).click();
     Thread.sleep(2000);
     
-    driver.findElement(By.id("username")).sendKeys("gm4afsal@gmail.com");
+    driver.findElement(By.id("username")).sendKeys("enter-email");
     Thread.sleep(2000);
     
     driver.findElement(By.id("password")).click();
     Thread.sleep(2000);
     
-    driver.findElement(By.id("password")).sendKeys("Trafford@2020");
+    driver.findElement(By.id("password")).sendKeys("enter-password");
     Thread.sleep(2000);
     
     driver.findElement(By.id("Login")).click();
